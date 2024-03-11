@@ -1,0 +1,71 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#job-listings {
+    margin-top: 50px;
+}
+
+#jobs {
+    list-style-type: none;
+}
+
+.job {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.job p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.job .location {
+    font-style: italic;
+}
